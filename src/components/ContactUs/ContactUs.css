@@ -1,0 +1,93 @@
+.contact-us {
+    margin: 50px 0 0 0;
+}
+
+.contact-us .background {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 45px;
+    background: url(../../../public/images/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: #fff;
+}
+
+.contact-us .container-contact-us {
+    background-color: var(--gray);
+    padding: 40px 0;
+}
+
+.contact-us .col-12 .title {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us .col-12 .title .line {
+    border-top: 1px solid #7b7368;
+    flex: 1;
+    width: 100%;
+}
+
+.contact-us .col-12 .title h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.contact-us .col-12 input {
+    border: 1px solid #575149;
+    background-color: #342f29;
+    color: #7b7368;
+    padding: 20px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.contact-us .col-12 label {
+    font-weight: 700;
+    font-size: 12px;
+    color: #7b7368;
+    margin-top: 10px;
+}
+
+.contact-us .col-12 label span {
+    color: #fff;
+}
+
+.contact-us .col-12 textarea {
+    margin-top: 5px;
+    border: 1px solid #575149;
+    background-color: #342f29;
+    color: #7b7368;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+.contact-us .send-message .btn {
+    width: auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #000;
+}
+
+.contact-us .success-send {
+    text-align: center;
+    border: 1px solid #575149;
+    background-color: #342f29;
+    padding: 20px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.contact-us .success-send h5 {
+    font-size: 20px;
+    font-weight: 700;
+}

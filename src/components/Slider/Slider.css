@@ -1,0 +1,66 @@
+.slider.img-1 {
+    background: url(./../../../public/images/slider/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider.img-2 {
+    background: url(./../../../public/images/slider/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider.img-3 {
+    background: url(./../../../public/images/slider/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider.img-4 {
+    background: url(./../../../public/images/slider/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider {
+    height: 100vh;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.slider .text-slider p {
+    background-color: #000000b0;
+    width: fit-content;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.slider .text-slider .details {
+    font-size: 16px;
+}
+
+.slider .buttons-slider .btn {
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    display: inline-block;
+    margin: 20px 0 0 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    border: 3px solid;
+    background-color: #00000056;
+    transition: 0.3s;
+}
+
+.slider .buttons-slider .btn.btn-reservation {
+    border-color: #a1300d;
+    background-color: #a1300d;
+}
+
+.slider .buttons-slider .btn:hover {
+    opacity: 0.9;
+}

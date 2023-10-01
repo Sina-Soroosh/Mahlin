@@ -1,0 +1,29 @@
+.menus {
+    margin: 50px 0;
+}
+
+.menus .background {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 45px;
+    background: url(../../../public/images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: #fff;
+}
+
+.content-menus {
+    margin: 40px 0;
+}
+
+.content-menus .list-menu h3 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #382410;
+    text-align: center;
+}
+
+.content-menus .list-menu h3 span {
+    font-weight: 600;
+}

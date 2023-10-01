@@ -1,0 +1,60 @@
+.about-us {
+    padding: 40px 0;
+}
+
+.about-us h2 {
+    text-align: center;
+    color: #382410;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.about-us .col-md-6 h3 {
+    color: #382410;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.about-us .col-md-6 h3 span {
+    font-weight: 600;
+}
+
+.about-us .col-md-6 .label {
+    color: #7c6853;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-us .col-md-6 p {
+    color: #7c6853;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-us .col-md-6 blockquote {
+    padding-right: 10px;
+    margin: 15px 0;
+    border-right: 5px solid #c3512f;
+    font-size: 17px;
+    font-weight: 500;
+    color: #9c9288;
+}
+
+.about-us .images {
+    margin: 20px 0;
+}
+
+.about-us .images .img {
+    padding: 5px;
+    border: 1px solid #eee;
+    margin-top: 5px;
+}
+
+.about-us .images .img img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}

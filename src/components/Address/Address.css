@@ -1,0 +1,16 @@
+.address h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.address h4 span {
+    margin-left: 10px;
+    color: #bfb7ac;
+}
+
+.address p {
+    color: #9d9487;
+    font-size: 11px;
+    margin-bottom: 10px;
+}

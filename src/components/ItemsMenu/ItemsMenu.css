@@ -1,0 +1,32 @@
+.items-menu {
+    margin: 30px 0 !important;
+}
+
+.items-menu li .food {
+    border-top: 1px dashed #ebe8e2;
+    border-bottom: 1px dashed #ebe8e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    transition: 0.3s;
+}
+
+.items-menu li .food .side-right-food h4,
+.items-menu li .food .side-left-food p {
+    color: #7c6853;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.items-menu li .food .side-right-food p {
+    color: #9c9288;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.items-menu li .food:hover {
+    background: #f8f6f2;
+}

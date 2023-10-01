@@ -1,0 +1,166 @@
+#cover-page {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0000004b;
+    z-index: 2;
+    display: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #f7f7f7d3;
+}
+
+header .content-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .content-header .logo img {
+    width: 200px;
+    margin: 10px 0;
+}
+
+.content-header .logo-menu {
+    font-size: 25px;
+    color: #a8a7a7;
+    display: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content-header .menu ul {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    height: 100%;
+}
+
+.content-header .menu ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.content-header .menu ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #7c6853;
+}
+
+.content-header .menu ul .reservation div {
+    border: 1px solid #7c6853;
+    padding: 4px;
+}
+
+.content-header .menu ul li a:hover {
+    color: #352b22;
+}
+
+.content-header .menu ul li:has(a.active) {
+    border-bottom: 3px solid #7c6853;
+}
+
+.content-header .menu ul li a.active {
+    color: #352b22;
+}
+
+.content-header .menu ul li.reservation {
+    border: none !important;
+}
+
+.content-header .menu ul li.reservation div:has(a.active) {
+    border: 1px solid #352b22;
+}
+
+.content-header .menu ul li.close {
+    display: none;
+}
+
+@media screen and (max-width : 767px) {
+    #cover-page {
+        display: block;
+    }
+
+    header {
+        position: static;
+    }
+
+    .content-header .menu {
+        transition: 0.3s;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        bottom: 0;
+        background-color: var(--gray);
+        overflow: auto;
+        z-index: 2000;
+    }
+
+    .content-header .menu.active {
+        right: 0;
+    }
+
+    .content-header .menu ul {
+        height: auto;
+        display: block;
+        position: relative;
+        padding: 20px 0;
+    }
+
+    .content-header .menu ul li {
+        width: 200px;
+        height: 50px;
+    }
+
+    .content-header .menu ul li.close {
+        position: absolute;
+        left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .content-header .menu ul li.close:hover {
+        color: #eee;
+    }
+
+    .content-header .menu ul li:hover {
+        background-color: #50493f;
+    }
+
+    .content-header .menu ul li a {
+        display: block;
+        width: 100%;
+        color: #fff;
+        padding-right: 15px;
+    }
+
+    .content-header .menu ul .reservation div {
+        border: none;
+        padding: none;
+    }
+
+    .content-header .logo-menu {
+        display: flex;
+    }
+
+    header .content-header .logo img {
+        width: 150px;
+    }
+}
