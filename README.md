@@ -10,5 +10,6 @@
 - CSS
 - JS
 - React JS
+- Bootstrap
 - SweetAlert 2
 - AOS
