@@ -2,7 +2,7 @@
 
 > Developed the landing page of Mahlin Restaurant Cafe using the React library.
 
-## [Live Demo](https://mahlin.iran.liara.run/)
+## [Live Demo](https://mahlin.vercel.app/)
 
 ## Built With
 
